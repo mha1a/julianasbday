@@ -13,7 +13,6 @@ html, body {
     margin: 20px 10px 5px 10px;
 
     font-size: 10vw;
-    max-font-size: 4rem;
     line-height: 1.1;
 }
 
@@ -150,8 +149,8 @@ h1 {
 
 
 @media (max-width: 600px) {
-    .title-heading {
-        font-size: 1.8rem;
+   .title-heading {
+        font-size: 3rem;
     }
 
     h1 {
