@@ -9,9 +9,9 @@ html, body {
 .title-heading {
     text-align: center;
     color: #ac26ac;
-    font-size: 3rem;
     font-weight: 800;
     margin: 20px 10px 5px 10px;
+    font-size: clamp(2rem, 6vw, 4rem);
 }
 
 h1 {
