@@ -16,6 +16,7 @@ html, body {
     line-height: 1.1;
 }
 
+
 h1 {
     text-align: center;
     color: #e6b2e6;
@@ -146,3 +147,4 @@ h1 {
     from { transform: rotateY(0deg); }
     to { transform: rotateY(360deg); }
 }
+
