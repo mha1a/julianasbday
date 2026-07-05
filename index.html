@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/jspsych@8.2.1/css/jspsych.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Juliana's Birthday</title>
+</head>
+
+<body>
+
+<svg class="title" viewBox="0 0 1000 170" preserveAspectRatio="xMidYMid meet">
+    <path id="bogen" d="M 0 220 Q 500 0 1000 220" fill="transparent" />
+    <text class="welcome-text">
+        <textPath href="#bogen" startOffset="50%" text-anchor="middle">
+            IT'S JULIANA'S BIRTHDAY!
+        </textPath>
+    </text>
+</svg>
+
+<h1>☆ wishing you happiness and health ☆</h1>
+
+<button id="openCardBtn">Click here to blow out the candles</button>
+
+<div class="card" id="birthdayCard">
+
+    <!-- Inside -->
+    <div class="inside">
+        <img src="images/uia.gif" alt="uiiai cat" class="insideImage">
+    </div>
+
+    <!-- Front Cover -->
+    <div class="cover">
+
+        <div class="scene">
+            <img src="images/pic.jpeg" alt="Juliana" class="image1">
+            <canvas id="cakeCanvas"></canvas>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="hearts">
+    <span>💗</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>💕</span>
+    <span>💗</span>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
