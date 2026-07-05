@@ -20,7 +20,7 @@ html, body {
 
 .welcome-text {
     fill: #ac26ac;
-    font-size: 4vw; /* responsive scaling */
+    font-size: 8vw; /* responsive scaling */
     font-weight: bold;
 }
 
